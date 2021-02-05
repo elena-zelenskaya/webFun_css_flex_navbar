@@ -21,6 +21,7 @@
     color: #fff;
     display:flex;
     height: 70px;
+    padding-left:10px;
     justify-content:space-between;
     align-items: center;
 }
@@ -30,6 +31,7 @@ img {
 h1 {
     font-size:16px;
     font-weight: normal;
+    flex-grow: 0.3;
 }
 ul {
     list-style-type: none;
@@ -37,7 +39,7 @@ ul {
 }
 li {
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 50px;
 }
 a {
     color:#fff;
